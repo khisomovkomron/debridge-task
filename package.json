@@ -1,0 +1,24 @@
+{
+  "name": "debridge",
+  "version": "1.0.0",
+  "description": "Test Task for QA backend + manual Engineer Test task done and result shall be shared with HR Zlata @zlata_debridge.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khisomovkomron/debridge-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/khisomovkomron/debridge-task/issues"
+  },
+  "homepage": "https://github.com/khisomovkomron/debridge-task#readme"
+}
