@@ -1,24 +1,36 @@
 {
-  "name": "debridge",
-  "version": "1.0.0",
-  "description": "Test Task for QA backend + manual Engineer Test task done and result shall be shared with HR Zlata @zlata_debridge.",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/khisomovkomron/debridge-task.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/khisomovkomron/debridge-task/issues"
-  },
-  "homepage": "https://github.com/khisomovkomron/debridge-task#readme"
+    "name": "debridge",
+    "version": "1.0.0",
+    "description": "Test Task for QA backend + manual Engineer Test task done and result shall be shared with HR Zlata @zlata_debridge.",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "jest",
+        "typecheck": "tsc --noEmit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/khisomovkomron/debridge-task.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/khisomovkomron/debridge-task/issues"
+    },
+    "homepage": "https://github.com/khisomovkomron/debridge-task#readme",
+    "dependencies": {
+        "axios": "^1.20.0",
+        "dotenv": "^18.0.7"
+    },
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "@types/node": "^26.6.5",
+        "jest": "^30.5.2",
+        "ts-jest": "^29.4.14",
+        "typescript": "^5.9.3"
+    }
 }
